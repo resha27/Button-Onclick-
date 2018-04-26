@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>On Click</title>
+		<link rel="stylesheet" href="css/style.css">
+	
+		<script>
+			function dropdownImage()
+			{
+				var img,plus;
+				
+				img = document.getElementById("image");
+				plus = document.getElementById("plus");
+				
+				img.style.display='block';
+				plus.innerHTML="-"; 
+				
+			}
+		</script>
+	</head>
+	
+
+	<body>
+		<div class="dropdownbar">
+		
+			<Button id="button" onclick="dropdownImage();">  Click On
+			<span id="plus" class="plus"> + </span>
+			</Button>
+			
+				<img id="image" class="image" src="images/image.png">
+		</div>
+	</body>
+</html>

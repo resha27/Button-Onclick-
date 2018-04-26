@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>On Click</title>
+		<link rel="stylesheet" href="css/style.css">
+	
+		<script>
+			
+			function dropdownImage(imgs,pluss)
+			{
+				var imgs,pluss;	
+				var img,plus;
+				
+				img = document.getElementById(imgs);
+				plus = document.getElementById(pluss);
+				
+				if(img.style.display=='none')
+				{
+					img.style.display='block';
+					plus.innerHTML="-";
+				}
+				else
+				{
+					img.style.display='none';
+					plus.innerHTML="+";
+				}
+			}
+			
+		</script>
+		
+	</head>
+	
+	
+	<body>
+		<h1> On Click DropDown Image</h1>
+	
+		<div class="dropdownbar">
+			<Button id="button1" class="button" onclick="dropdownImage('image1','plus1');"> Click On
+			<span id="plus1" class="plus">+</span>
+			</Button>
+			<img id="image1" class="image" src="images/image.png" style="display:none";>
+		</div>
+		
+		<div class="dropdownbar">
+			<Button id="button2" class="button" onclick="dropdownImage('image2','plus2');"> Click On
+			<span id="plus2" class="plus">+</span>
+			</Button>
+			<img id="image2" class="image" src="images/image2.jfif" style="display:none";>
+		</div>
+		
+		<div class="dropdownbar">
+			<Button id="button3" class="button" onclick="dropdownImage('image3','plus3');"> Click On
+			<span id="plus3" class="plus">+</span>
+			</Button>
+			<img id="image3" class="image" src="images/image3.jfif" style="display:none";>
+		</div>
+		
+	</body>
+</html>

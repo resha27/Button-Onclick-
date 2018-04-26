@@ -1,0 +1,36 @@
+body{
+	background-color:gray;
+}
+
+h1{
+	color:#00f2ff;
+	text-align:center;
+	text-decoration:underline;
+	
+}
+
+.dropdownbar{
+	width:170px;
+	padding:20px;
+}
+
+
+.image{
+	display:none;
+	width:800px;
+	height:500px;
+}
+
+.plus{
+	float:right;
+	position:auto;
+	padding-right:6;
+}
+
+.button{
+	width:800px;
+	height:80px;
+	padding:10px;
+	font-size:20px;
+}
+

@@ -1,0 +1,24 @@
+
+.dropdownbar{
+	width:170px;
+
+}
+.image{
+	display:none;
+	width:800px;
+	height:500px;
+	
+
+}
+
+.plus{
+	float:right;
+	position:auto;
+	padding-right:6;
+}
+
+#button{
+	width:800px;
+	height:80px;
+	font-size:20px;
+}
